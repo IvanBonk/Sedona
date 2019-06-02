@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.image_text {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 510px;
+    background: url('../img/preview.png') no-repeat;
+    background-size: cover;
+}
+
+.image_text li:nth-child(1) {
+    margin-top: 100px;
+}
+.image_text li:nth-child(2) {
+    margin-top: -20px;
+}
+.image_text li:last-child{
+    height: 57px;
+}
+
+.presentation h3 {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 30px;
+}
+.presentation p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.advantage_one, .advantage_two {
+    height: 256px;
+    display: flex;
+}
+
+.advant_text{
+    width: 400px;
+    text-align: center;
+    background-color: #81b3d2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.advant_text h4 {
+    margin-top: 40px;
+}
+
+.necessary_list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.necessary_list .nec_item {
+    text-align: center;
+    margin: 60px 0;
+    padding: 0;
+}
+
+.necessary_list .nec_item p {
+    width: 300px;
+}
+.advantage_other ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 256px;
+    background-color: #eee;
+}
+.advantage_other .advant_item {
+    text-align: center;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+.advantage_other .advant_item h3 {
+    margin-top: 50px;
+}
+
+.interesting {
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.interesting_div {
+    text-align: center;
+    width: 460px;
+    margin-top: 30px;
+}
+.interesting_div h2 {
+    font-size: 25px;
+}
+
+.find_hotel {
+    height: 461px;
+    width: 568px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    background-color: #fff;
+    margin-top: -60px;
+}
+.find_hotel_div {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background: url('../img/sedona_\,map.png') no-repeat;
+    background-size: cover;
+
+}
+
+.find_hotel .head {
+    background-color: #766357;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_in {
+    margin-top: 40px;
+}
+.date_in, .date_out {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_in p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.date_out p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.arriving, .getout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 31px;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+}
+.arriving .date{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+.getout .date{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+.arriving .date span {
+    margin-left: 5px;
+}
+.getout .date span {
+    margin-left: 5px;
+}
+
+.arriving .date .day {
+    margin-left: 15px;
+}
+.getout .date .day {
+    margin-left: 15px;
+}
+#calend_btn_in, #calend_btn_out{
+    height: 22px;
+    width: 20px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 15%;
+    margin: 0;
+    cursor: pointer;
+}
+#calend_btn_in:hover {
+    background-color: #cccaca;
+}
+#calend_btn_out:hover {
+    background-color: #cccaca;
+}
+
+.persons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.adult {
+    margin-left: 10px;
+}
+
+.children_form {
+    width: 114px;
+    height: 38px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.adult_form {
+    width: 114px;
+    height: 38px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 27px;
+}
+.minus, .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbaba;
+    font-size: 25px;
+    height: 27px;
+    width: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.minus:hover {
+    background-color: #cccaca;
+    color: white;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-color: #cccaca;
+    color: white;
+    cursor: pointer;
+}
+
+.find_btn_div {
+    text-align: center;
+    margin-top: 25px;
+}
+.find_btn {
+    height: 58px;
+    width: 458px;
+    background-color: #81b3d2;
+    text-align: center;
+    margin: auto 0;
+    border: none;
+    color: white;
+    font-size: 21px;
+}
+.find_btn:hover {
+    cursor: pointer;
+    background-color: #5c99be;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: -120px;
+}
+
+.hashtag {
+    width: 220px;
+    text-align: center;
+}
+
+.hashtag a{
+    color: black;
+    font-size: 21px;
+}
+.social_links img {
+    max-width: 22px;
+    max-height: 22px;
+    
+}
+.social_links {
+    width: 170px;
+    margin: 0;
+    padding: 0;
+}
+.social_links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 47px;
+    height: 47px;
+    background-color: #81b3d2;
+}
+.developer h2 {
+    width: 220px;
+    text-align: center;
+}
